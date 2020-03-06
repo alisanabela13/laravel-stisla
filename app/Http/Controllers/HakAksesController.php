@@ -15,7 +15,7 @@ class HakAksesController extends Controller
     
     public function index(){
 
-        $user = $this->users->get();
+        $user = $this->users->latest()->get();
         return view('hakakses', compact('user'));
    }
 }
