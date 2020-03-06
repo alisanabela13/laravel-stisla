@@ -15,7 +15,7 @@ class PenggunaController extends Controller
     
     public function index(){
 
-        $user = $this->users->get();
+        $user = $this->users->latest()->get();
         return view('pengguna', compact('user'));
    }
 }
