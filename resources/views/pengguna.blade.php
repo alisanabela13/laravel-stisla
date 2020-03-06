@@ -17,7 +17,7 @@
                 <div class="table-responsive" style="font-size:14px">
                 <table id="multi-col-order" class="table table-striped table-bordered display no-wrap" style="width:100%">
                     <thead>
-                    
+
                       <tr>
                         <th>No</th>
                         <th>Name</th>
@@ -34,7 +34,13 @@
                       <td>{{$loop->index+1}}</td>
                       <td>{{$u->name}}</td>
                       <td>{{$u->email}}</td>
-                      <td>{{$u->role_id}}</td>
+                      @if($u->role_id == '1')
+                        <td>Admin</td>
+                      @elseif($u->role_id == '2')
+                        <td>CEO</td>
+                      @else
+                        <td></td>
+                      @endif
                         <td style="text-align:center;">
                             <a href="#" class="btn btn-rounded btn-warning mr-1" style="width:38px; height: 38px"><i class="fas fa-pencil-alt" ></i></a>
                             <button class="btn btn-rounded btn-danger"style="width:38px; height: 38px"><i class="fas fa-trash"></i></button>
