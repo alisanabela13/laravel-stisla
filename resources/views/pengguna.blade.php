@@ -22,25 +22,32 @@
                         <th>No</th>
                         <th>Name</th>
                         <th>E-Mail</th>
+                        <th>Role</th>
                         <th></th>
                       </tr>
                     </thead>
                     <tbody>
+                    @foreach ($user as $u)
+                        
+                    
                       <tr class="table-light">
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                      <td>{{$loop->index+1}}</td>
+                      <td>{{$u->name}}</td>
+                      <td>{{$u->email}}</td>
+                      <td>{{$u->role_id}}</td>
                         <td style="text-align:center;">
                             <a href="#" class="btn btn-rounded btn-warning mr-1" style="width:38px; height: 38px"><i class="fas fa-pencil-alt" ></i></a>
                             <button class="btn btn-rounded btn-danger"style="width:38px; height: 38px"><i class="fas fa-trash"></i></button>
                         </td>
                       </tr>
+                      @endforeach
                     </tbody>
                     <thead>
                         <tr>
                           <th>No</th>
                           <th>Name</th>
                           <th>E-Mail</th>
+                          <th>Role</th>
                           <th></th>
                         </tr>
                       </thead>

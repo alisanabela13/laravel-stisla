@@ -26,11 +26,6 @@ class UsersTableSeeder extends Seeder
             'role_id' => 2
         ]);
  
-        App\User::create([
-            'name' => 'Miss. Puff',
-            'email' => 'puff@gmail.com',
-            'password' => bcrypt('123123'),
-            'role_id' => 3
-        ]);
+       
     }
 }
