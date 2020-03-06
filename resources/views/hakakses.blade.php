@@ -15,7 +15,7 @@
             </div>
             <div class="section-body">
                 <div class="table-responsive" style="font-size:14px">
-                <table id="multi-col-order" class="table table-striped table-bordered display no-wrap" style="width:100%">
+                <table class="table table-striped table-bordered display no-wrap" style="width:100%">
                     <thead>
                       <tr>
                         <th>No</th>
@@ -27,7 +27,7 @@
                     </thead>
                     <tbody>
                         @foreach ($user as $u)
-                      <tr>
+                      <tr class="table-light">
                         <td>{{$loop->index+1}}</td>
                         <td>{{$u->name}}</td>
                         <td>{{$u->email}}</td>
@@ -39,7 +39,7 @@
                       </tr>
                       @endforeach
                     </tbody>
-                    <tfoot>
+                    <thead>
                         <tr>
                           <th>No</th>
                           <th>Name</th>
@@ -47,7 +47,7 @@
                           <th>Role</th>
                             <th></th>
                         </tr>
-                      </tfoot>
+                      </thead>
                   </table>
                 </div>
             </div>

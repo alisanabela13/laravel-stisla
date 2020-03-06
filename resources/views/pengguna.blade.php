@@ -25,7 +25,7 @@
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
+                      <tr class="table-light">
                         <td></td>
                         <td></td>
                         <td></td>
@@ -35,14 +35,14 @@
                         </td>
                       </tr>
                     </tbody>
-                    <tfoot>
+                    <thead>
                         <tr>
                           <th>No</th>
                           <th>Name</th>
                           <th>E-Mail</th>
                           <th></th>
                         </tr>
-                      </tfoot>
+                      </thead>
                   </table>
                 </div>
             </div>
