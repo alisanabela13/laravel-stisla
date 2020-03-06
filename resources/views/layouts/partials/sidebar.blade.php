@@ -13,8 +13,8 @@
               <hr>
 
               <li class="menu-header">Data Master</li>
-                <li class="nav-item"><a class="nav-link" href="#" aria-expanded="false"><i class="far fa-user"></i> <span>Pengguna</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="#" aria-expanded="false"><i class="fas fa-key"></i> <span>Hak Akses</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="{{route('pengguna')}}" aria-expanded="false"><i class="far fa-user"></i> <span>Pengguna</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('hakakses')}}" aria-expanded="false"><i class="fas fa-key"></i> <span>Hak Akses</span></a></li>
 
 
         

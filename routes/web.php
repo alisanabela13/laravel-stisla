@@ -22,5 +22,8 @@ Route::group(['middleware' => 'auth'], function() {
     Route::get('/dashboard', 'HomeController@index')->name('dashboard');
 });
 
+Route::get('/pengguna', 'PenggunaController@index')->name('pengguna');
+Route::get('/hakakses', 'HakAksesController@index')->name('hakakses');
+
 
 Auth::routes();
