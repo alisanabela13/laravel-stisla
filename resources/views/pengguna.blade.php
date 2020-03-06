@@ -17,6 +17,7 @@
                 <div class="table-responsive" style="font-size:14px">
                 <table id="multi-col-order" class="table table-striped table-bordered display no-wrap" style="width:100%">
                     <thead>
+                    
                       <tr>
                         <th>No</th>
                         <th>Name</th>
