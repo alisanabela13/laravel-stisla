@@ -7,7 +7,7 @@ use App\User;
 
 use Illuminate\Support\Facades\DB;
 
-class HakAksesController extends Controller
+class DataUserController extends Controller
 {
     public function __construct(User $users){
         $this->users = $users;
@@ -16,6 +16,6 @@ class HakAksesController extends Controller
     public function index(){
 
         $user = $this->users->latest()->get();
-        return view('hakakses', compact('user'));
+        return view('datauser', compact('user'));
    }
 }

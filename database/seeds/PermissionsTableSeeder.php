@@ -30,7 +30,7 @@ class PermissionsTableSeeder extends Seeder
      $admin = App\Role::where('name', 'admin')->first();
      $admin->permissions()->attach([1, 2, 5]);
      
-     $ceo = App\Role::where('name', 'ceo')->first();
+     $ceo = App\Role::where('name', 'user')->first();
      $ceo->permissions()->attach([1, 2, 3, 4, 5]);
     }
 }

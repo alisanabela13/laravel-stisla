@@ -23,7 +23,7 @@ Route::group(['middleware' => 'auth'], function() {
 });
 
 Route::get('/pengguna', 'PenggunaController@index')->name('pengguna');
-Route::get('/hakakses', 'HakAksesController@index')->name('hakakses');
+Route::get('/datauser', 'DataUserController@index')->name('datauser');
 
 
 Auth::routes();

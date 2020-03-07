@@ -37,7 +37,7 @@
                       @if($u->role_id == '1')
                         <td>Admin</td>
                       @elseif($u->role_id == '2')
-                        <td>CEO</td>
+                        <td>CEO</td>  
                       @else
                         <td></td>
                       @endif

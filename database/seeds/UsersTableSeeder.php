@@ -14,14 +14,14 @@ class UsersTableSeeder extends Seeder
     {
         App\User::create([
             'name' => 'Mr. Junk',
-            'email' => 'junk@gmail.com',
+            'email' => 'admin@gmail.com',
             'password' => bcrypt('123123'),
             'role_id' => 1
         ]);
  
         App\User::create([
             'name' => 'Mr. Jenkin',
-            'email' => 'jenkin@gmail.com',
+            'email' => 'user@gmail.com',
             'password' => bcrypt('123123'),
             'role_id' => 2
         ]);

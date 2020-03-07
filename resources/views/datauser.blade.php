@@ -8,7 +8,7 @@
     <div class="main-content">
         <section class="section">
             <div class="section-header">
-                <h1>Hak Akses</h1>
+                <h1>Data User</h1>
                 <div class="ml-auto">
                     <a href="#" class="btn btn-rounded btn-primary" style="font-size: 15px"> <i class="fas fa-plus"></i> </a>
                 </div>

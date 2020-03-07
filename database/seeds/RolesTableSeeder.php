@@ -16,7 +16,7 @@ class RolesTableSeeder extends Seeder
         ]);
       
         App\Role::create([
-            'name' => 'ceo'
+            'name' => 'user'
       ]);
     }
 }
