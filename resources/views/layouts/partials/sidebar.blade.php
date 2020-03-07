@@ -11,7 +11,7 @@
         <hr>
         <li class="menu-header">Data Master</li>
         <li class="nav-item"><a class="nav-link" href="{{route('pengguna')}}" aria-expanded="false"><i class="far fa-user"></i> <span>Pengguna</span></a></li>
-        <li class="nav-item"><a class="nav-link" href="{{route('datauser')}}" aria-expanded="false"><i class="fas fa-user plus"></i> <span>Data User</span></a></li>
+        <!-- <li class="nav-item"><a class="nav-link" href="{{route('datauser')}}" aria-expanded="false"><i class="fas fa-user plus"></i> <span>Data User</span></a></li> -->
         <!-- <li class="nav-item dropdown">
           <a href="#" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Dashboard</span></a>
           <ul class="dropdown-menu">
